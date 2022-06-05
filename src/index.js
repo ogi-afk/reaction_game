@@ -66,7 +66,18 @@ const getRandomNumber = function (max, min = 0) {
 
 const addBox = function () {
   const size = getRandomNumber(50, 10);
-  const color = "red";
+
+  const colors = [
+    "blue",
+    "black",
+    "pink",
+    "grey",
+    "indigo",
+    "yellow",
+    "violet",
+  ];
+
+  const color = colors[getRandomNumber(colors.length - 1)];
   const box = document.createElement("div");
   box.classList.add(BOX_CLASS);
   box.style.cssText = `
