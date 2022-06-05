@@ -1,0 +1,25 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html ",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogi-afk/free-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogi-afk/free-landing/issues"
+  },
+  "homepage": "https://github.com/ogi-afk/free-landing#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel": "^2.5.0"
+  }
+}
